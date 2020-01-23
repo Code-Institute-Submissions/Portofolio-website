@@ -4,6 +4,9 @@ body {
     font-family: 'Nobile', sans-serif;
 }
 
+h1 {
+    padding-top: 5%;
+}
 
 
 /*----------JUMBOTRON----------*/
@@ -42,19 +45,30 @@ body {
     border-color: transparent;
     letter-spacing: 7px;
     text-transform: uppercase;
+    float: right;
+
 }
-
-.navbar-fixed-top .container {
-
+.navbar, .container-navbar {
+    
     text-align: right;
     margin-right: 1%;
     margin-top: 1%;
+    
+    }
+
+ .navbar-header {
+   
+    border: 0px;
 }
-.navbar .navbar-collapse {
-    text-align: right;
-    border-top: 1px solid transparent;
-    overflow-x: hidden;
+
+.navbar-light .navbar-toggler {
+    color: rgba(35, 34, 34, 0.91);
+    border: 0px;
 }
+
+
+
+
 
 /* Icon 1 */
 
@@ -93,15 +107,15 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #e65100;
+background: #888;
 }
 
 .animated-icon2 span {
-background: #e3f2fd;
+background: #888;
 }
 
 .animated-icon3 span {
-background: #f3e5f5;
+background: #888;
 }
 
 .animated-icon1 span:nth-child(1) {
@@ -224,4 +238,19 @@ opacity: 0;
 transform: rotate(-45deg);
 top: 21px;
 left: 8px;
+}
+
+/**** About section ****/
+@media (min-width: 992px)
+#about-me {
+    background-image: url(../images/portrait.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.about-row {
+    padding-bottom: 10%;
+    font-size: 1.75em;
+    line-height: 2;
 }
