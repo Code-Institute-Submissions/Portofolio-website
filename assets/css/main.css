@@ -6,6 +6,7 @@ body {
 
 h1 {
     padding-top: 5%;
+    color:#b8b8b8;
 }
 
 h2 {
@@ -15,11 +16,22 @@ h2 {
     text-transform: uppercase;
 }
 
+/*Overlay for the background image*/
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.25); 
+}
+
 
 /*----------JUMBOTRON----------*/
 #landing-view {
     background-attachment: fixed;
-    background-image: url(../images/landingview2.jpg);
+    background-image: url(../images/landingview3.jpg);
     background-size:cover;
     background-position: bottom;
     height:100vh;
@@ -44,6 +56,10 @@ h2 {
 
 }
 
+.jumbotron, p {
+    color:#b8b8b8;
+}
+
 /*----------NAVBAR----------*/
 
 .navbar{
@@ -59,7 +75,7 @@ h2 {
     
     text-align: right;
     margin-right: 1%;
-    margin-top: 1%;
+    margin-top: 2%;
     
     }
 
@@ -68,8 +84,8 @@ h2 {
     border: 0px;
 }
 
-.navbar-light .navbar-toggler {
-    color: rgba(35, 34, 34, 0.91);
+.navbar-light, .navbar-nav {
+    color: #939292e6;
     border: 0px;
 }
 
@@ -114,15 +130,15 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #888;
+background: #b8b8b8;
 }
 
 .animated-icon2 span {
-background: #888;
+background: #4d4b4b;
 }
 
 .animated-icon3 span {
-background: #888;
+background: #9b9a9a;
 }
 
 .animated-icon1 span:nth-child(1) {
@@ -263,12 +279,12 @@ left: 8px;
 
 /**** Media ****/
 
-@media (min-width: 992px)
-
-#about-me {
-
-    background-image: url( assets/images/portrait.jpeg);
+ @media screen and (min-width: 992px) {
+   #about-me {
+    background-image: url(../images/about-me.jpg);
     background-position: center;
     background-size: cover;
     width: 100vw;
+    height: 50%;
+    }
 }
