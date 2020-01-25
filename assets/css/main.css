@@ -6,7 +6,7 @@ body {
 
 h1 {
     padding-top: 5%;
-    color:#b8b8b8;
+    color:#6d6c6c;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/*Overlay for the background image*/
+/*Overlay for the background image
 .overlay{
   position: absolute;
   top: 0;
@@ -25,13 +25,13 @@ h2 {
   height: 100%;
   z-index: 10;
   background-color: rgba(0,0,0,0.25); 
-}
+}*/
 
 
 /*----------JUMBOTRON----------*/
 #landing-view {
     background-attachment: fixed;
-    background-image: url(../images/landingview3.jpg);
+    background-image: url(../images/landingview2.jpg);
     background-size:cover;
     background-position: bottom;
     height:100vh;
@@ -57,7 +57,7 @@ h2 {
 }
 
 .jumbotron, p {
-    color:#b8b8b8;
+    color:#6d6c6c;
 }
 
 /*----------NAVBAR----------*/
@@ -93,7 +93,7 @@ h2 {
 
 
 
-/* Icon 1 */
+/**** Hamburger button animation *** Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
 width: 30px;
@@ -117,6 +117,7 @@ position: absolute;
 height: 3px;
 width: 100%;
 border-radius: 9px;
+border: 0px;
 opacity: 1;
 left: 0;
 -webkit-transform: rotate(0deg);
@@ -130,7 +131,7 @@ transition: .25s ease-in-out;
 }
 
 .animated-icon1 span {
-background: #b8b8b8;
+background: #6d6c6c;
 }
 
 .animated-icon2 span {
