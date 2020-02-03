@@ -43,7 +43,7 @@ h2 {
 
     
 }
-}
+
 
 .top {
     padding-left: 12px;
@@ -92,6 +92,10 @@ h2 {
     border: 0px;
 }
 
+.button-style:focus {
+    outline: none; !important
+}
+ 
 
 
 
@@ -118,6 +122,7 @@ cursor: pointer;
 .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
 display: block;
 position: absolute;
+ outline: none;
 height: 3px;
 width: 100%;
 border-radius: 9px;
@@ -295,6 +300,44 @@ left: 8px;
 }
 
 
+/**** Work ****/
+
+    .work-cards {
+        margin-top: 10px;
+    }
+
+    .desktop-icon {
+
+    padding: 20px 0;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+
+    }
+    .github-icon {
+
+    padding: 20px 0;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+
+
+    }
+
+    .card-body .row {
+
+    text-align: center;
+    padding-top: 10px;
+    align-content: center;
+    }
+
+    a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
+}
+
 /**** Skills ****/
 .skills {
     position: relative;
@@ -302,11 +345,11 @@ left: 8px;
     padding-bottom: 96px;
     
 }
-.col-xs-6 {
+/*.col-xs-6 {
     align-items: center;
-    width: 50%;
+    width:100%;
 }
-
+*/
 .skill-column {
 
     display: inline-table;
@@ -315,7 +358,7 @@ left: 8px;
 }
 .skills-inner {
 
-    width: 738px;
+    
 }
 
 .skill-column {
@@ -340,7 +383,7 @@ left: 8px;
    
 
 .overlay {
-  position: relative;
+  position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.0); /* Black see-through */
@@ -348,15 +391,11 @@ left: 8px;
   width: 100px;
   transition: .5s ease;
   opacity:0;
-  color: black;
+  color: #6d6c6c;
   font-size: 20px;
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
-
-   transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
 }
 
 .skills-img:hover .overlay {
@@ -403,7 +442,7 @@ footer {
 
 }
 
-.alignment {
+.alignment, i{
     line-height: 2px;
 }
 
