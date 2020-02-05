@@ -13,3 +13,9 @@ $(document).ready(function () {
     $('.animated-icon3').toggleClass('open');
   });
 });
+
+
+$('#contact-form').on('submit', function(e) {
+    $('#contactFormModal').modal('show');
+    e.preventDefault();
+})

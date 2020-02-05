@@ -16,6 +16,7 @@ h2 {
     text-transform: uppercase;
 }
 
+
 /*Overlay for the background image
 .overlay{
   position: absolute;
@@ -336,7 +337,13 @@ left: 8px;
     a {
     padding: 5px 15px 5px 10px;
     background-color: transparent;
-}
+    }
+
+    .filter {
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+     }
+
 
 /**** Skills ****/
 .skills {
@@ -383,7 +390,7 @@ left: 8px;
    
 
 .overlay {
-  position: absolute;
+  position: relative;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.0); /* Black see-through */
@@ -398,14 +405,12 @@ left: 8px;
   text-transform: uppercase;
 }
 
-.skills-img:hover .overlay {
-  opacity: 1;
-}
+
 .skill-column:hover .overlay {
   opacity: 1;
 }
 
-img.hoverImages {
+*img.hoverImages {
     margin:20px;
     padding:3px;
     
@@ -429,6 +434,15 @@ img.hoverImages:hover {
 btn-default {
     background-color:#ccc;
 
+}
+
+#contact-form {
+  background-image: url(../images/contact-background.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  padding-bottom: 100px;
+  padding-top: 42px;
+  text-align: left;
 }
 
 /****Footer****/
