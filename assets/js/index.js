@@ -19,3 +19,9 @@ $('#contact-form').on('submit', function(e) {
     $('#contactFormModal').modal('show');
     e.preventDefault();
 })
+
+$('html, body').animate({
+    scrollTop: $("#target-element").offset().top
+}, 1000);
+
+
