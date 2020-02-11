@@ -448,7 +448,7 @@ i {
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    margin-top: 2.5px;
+    margin-top: 5px;
     margin-bottom: 2.5px;
 }
 
