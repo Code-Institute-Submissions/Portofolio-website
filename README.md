@@ -4,8 +4,9 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 
 This is my portfolio website to present to prospective employers. The portfolio highlights two projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.
 
-## Demo
-A live demo can be found here.
+## Wireframe 
+Balsamiq was used to create the wireframes for this website. You can view it ![here](/assets/images/Portofolio-wireframe.pdf) 
+
 
 ## Desktop Demo
 
