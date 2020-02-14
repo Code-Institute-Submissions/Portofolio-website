@@ -49,7 +49,7 @@ Content
 All content in the "About Me and "Work" sections in this portfolio site were written by me.
 
 ### Media
-All photos were taken from Pexels, a stock image library. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme.
+All photos were taken from Pexels, a stock image library. A greyscale filter was applied to each one prior to upwitload to preserve the greyscale theme.
 
 ### Acknowledgements
 The scrollSpy delay JavaScript function was found through this tutorial [here](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2)
@@ -57,6 +57,8 @@ The scrollSpy delay JavaScript function was found through this tutorial [here](h
 All skill overaly filters displaying on hover were well modified to fit my purose and  was found [here](https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering)
 
 Colapsable hamburger menu with animation was found [here](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/)
+
+Website layout and design inspiration was found here: https://www.haleyschafer.com/
 
 
 
