@@ -34,7 +34,10 @@ All links will open in a new tab using 'target="_blank"' and the CV will downloa
 
 By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on  mobile devices (iPhone 11Max) to ensure compatibility and responsiveness. During the testing phase, I realized that background-attachment: fixed was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in a media query. I also realised that filters for the background image was not working with Edge and IE and therfore I opted to have the photo transformed black and white with a photo editor. 
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer) and on  mobile devices (iPhone 11Max) to ensure compatibility and responsiveness. During the testing phase, I realized that background-attachment: fixed was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in a media query. I also realised that filters for the background image was not working with Edge and IE and therfore I opted to have the photo transformed black and white with a photo editor. 
+
+Issues unresolved relate to IE browser for grey filters that do not work also on IE browser the background images are shaking upon scrolling (still looking for a fix) and still in IE and Edge the Wanderlust webiste project does not display correctly. 
+
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
